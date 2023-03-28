@@ -428,3 +428,39 @@ a {
     color: #fff;
     cursor: pointer;
 }
+/* Install */
+.install {
+    margin-top: 180px;
+    padding-bottom: 85px;
+}
+.install__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2e80ce;
+    padding: 0 70px;
+    border-radius: 4px;
+}
+.install__img {
+    display: block;
+    width: 284px;
+    height: 522px;
+    margin-top: -95px;
+    object-fit: cover;
+}
+.install__heading,
+.install__desc {
+    color: #ffffff;
+}
+.install__heading {
+    max-width: 489px;
+    margin-bottom: 18px;
+}
+.install__content {
+    width: 586px;
+}
+.install__row {
+    margin-top: 38px;
+    display: flex;
+    gap: 28px;
+}
